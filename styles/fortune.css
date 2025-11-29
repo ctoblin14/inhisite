@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 15px;
+}
+
+
+.basebuttons2 {
+  display: grid;
+  grid-template-rows: 100px;
+  grid-template-columns: 235px 250px 280px 200px 200px;
+
+  grid-column-start: 1;
+  grid-row-start: 1;
+
+  grid-column-end: 16;
+  grid-row-end: 16;
+
+  grid-column-gap: repeat(3, 100px), repeat(13, 10px);
+  grid-row-gap: 20px;
+}
+
+.buttonm2 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.buttond2 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.buttont2 {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.buttonr2 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+.starttest2 {
+display: grid;
+    grid-template-columns: 570px 500px;
+    grid-template-rows: 150px 400px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+
+}
+
+.wheel{
+  grid-column-start: 2;
+  grid-row-start: 2;
+
+}
+
+/*.helpbutton2 {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+*/
+.placeholder1{
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.placeholder2{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+
+/*.placeholder3{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+*/
+.spinarea{
+  display: grid;
+  grid-template-rows: 50px 100px;
+  grid-template-columns: 666px 500px 500px;
+}
+.spinbutton{
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 15px;
+}
+
+
+.basebuttons {
+  display: grid;
+  grid-template-rows: 70px;
+  grid-template-columns: 235px 250px 280px 200px 200px;
+
+  grid-column-start: 1;
+  grid-row-start: 1;
+
+  grid-column-end: 16;
+  grid-row-end: 16;
+
+  grid-column-gap: repeat(3, 100px), repeat(13, 10px);
+  grid-row-gap: 20px;
+}
+
+.buttonm {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+.buttond {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.buttont {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.buttonr {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+.starttest {
+display: grid;
+    grid-template-columns: repeat(3, 700px);
+    grid-template-rows: 390px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 8;
+
+}
+
+.helpbutton {
+  grid-column-start: 5;
+  grid-row-start: 1;
+}
+
+.placeholder1{
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.placeholder2{
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
+.starttestbutton{
+  grid-column-start: 2;
+  grid-row-start: 3;
+}

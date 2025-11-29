@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap');
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+.reg{
+    font-family:"Inter"
+    font-size: 24px;
+    color: #ff0000;
+}
+h2{
+    font-size: 20px;
+    color: #3914af;
+}
+h3{
+    font-size: 24px;
+    color: #00cb00;
+}
+#cool_paragraph{
+    padding:50px;
+    margin:50px;
+    border: black_solid 10px;
+}
